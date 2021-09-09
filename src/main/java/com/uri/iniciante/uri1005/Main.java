@@ -26,7 +26,7 @@ public class Main {
 		double primeiraNota = scan.nextDouble();
 		double segundaNota = scan.nextDouble();
 		
-		double media = (primeiraNota * 3.5) + (segundaNota * 7.5) / 11;
+		double media = ((primeiraNota * 3.5) + (segundaNota * 7.5)) / (3.5 + 7.5);
 		
 		System.out.printf("MEDIA = %.5f\n", media);
 		
