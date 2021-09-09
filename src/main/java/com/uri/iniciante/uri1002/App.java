@@ -1,4 +1,4 @@
-package com.uri.uri1002;
+package com.uri.iniciante.uri1002;
 
 import java.util.Scanner;
 
