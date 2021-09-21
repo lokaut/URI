@@ -19,6 +19,9 @@ Utilize variáveis de dupla precisão (double) e como todos os problemas, não e
  */
 
 public class Main {
+	
+	public static final double PESO_A = 3.5;
+	public static final double PESO_B = 7.5;
 
 	public static void main(String[] args) throws IOException {
 		Scanner scan = new Scanner(System.in);
@@ -26,7 +29,7 @@ public class Main {
 		double primeiraNota = scan.nextDouble();
 		double segundaNota = scan.nextDouble();
 		
-		double media = ((primeiraNota * 3.5) + (segundaNota * 7.5)) / (3.5 + 7.5);
+		double media = ((primeiraNota * PESO_A) + (segundaNota * PESO_B )) / (PESO_A  + PESO_B);
 		
 		System.out.printf("MEDIA = %.5f\n", media);
 		
