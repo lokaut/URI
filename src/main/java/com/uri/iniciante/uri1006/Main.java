@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 /* 
  * 							URI Online Judge | 1006 Média 2 - JAVA
-						Adaptado por Neilor Tonin, URI  Brasil
+							Adaptado por Neilor Tonin, URI  Brasil
 
 
 	Leia 3 valores, no caso, variáveis A, B e C, que são as três notas de um aluno. 
